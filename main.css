@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(184, 185, 185);
+}
+
+header {
+    margin: 20px;
+    font-size: 30px;
+}
+
+form {
+    padding: 20px;
+}
+
+form input,
+button {
+    padding: 8px;
+}
+form input,
+button,
+.lista {
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+}
+
+.lista {
+    width: 200px;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.texto-riscado{
+    text-decoration: line-through;
+}
