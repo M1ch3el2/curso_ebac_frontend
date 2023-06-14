@@ -26,7 +26,6 @@ function validaNumero() {
         invalid1.style.display = 'none'
         same1.innerHTML = `<p><b>Iguais</b> - O número ${num2.value} é igual ao número ${num1.value}<p>`
     }
-    console.log(typeof(n1))
 }
 
 form.addEventListener('submit', function(e){
